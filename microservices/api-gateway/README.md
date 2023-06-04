@@ -89,6 +89,12 @@ adapter code which underneath calls multiple internal microservices, as shown in
 
 ![multiple-custom-api-gateways.png](multiple-custom-api-gateways.png)
 
+
+Comparing Load Balancer and API Gateway
+
+
+![apiGatewayVSLoadBalancer.png](apiGatewayVSLoadBalancer.png)
+
 Additional resources
 Chris Richardson. Pattern: API Gateway / Backend for Front-End
 https://microservices.io/patterns/apigateway.html
