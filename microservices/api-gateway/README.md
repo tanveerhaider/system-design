@@ -47,7 +47,7 @@ Main features in the API Gateway pattern
 An API Gateway can offer multiple features. Depending on the product it might offer richer or simpler features, however,
 the most important and foundational features for any API Gateway are the following design patterns:
 
-Reverse proxy or gateway routing. The API Gateway offers a reverse proxy to redirect or route requests (layer 7 routing, 
+**Reverse proxy or gateway routing**. The API Gateway offers a reverse proxy to redirect or route requests (layer 7 routing, 
 usually HTTP requests) to the endpoints of the internal microservices. The gateway provides a single endpoint
 or URL for the client apps and then internally maps the requests to a group of internal microservices.
 This routing feature helps to decouple the client apps from the microservices but it's also convenient when modernizing
