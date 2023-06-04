@@ -9,7 +9,7 @@ However, when you build large and complex microservice-based applications (for e
 microservice types), and especially when the client apps are remote mobile apps or SPA web applications, that approach
 faces a few issues.
 • Interacting with multiple microservices to build a single UI screen increases the number of round trips across the Internet. 
-This approach increases latency and complexity on the UI side.
+  This approach increases latency and complexity on the UI side.
 •Implementing security and cross-cutting concerns like security and authorization on every microservice can require significant development effort
 • Protocols used on the server side (like AMQP or binary protocols) are not supported in client apps. Therefore, requests must be performed through protocols like HTTP/HTTPS and translated to the other protocols afterwards
 
