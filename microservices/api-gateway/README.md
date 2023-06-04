@@ -88,6 +88,3 @@ adapter code which underneath calls multiple internal microservices, as shown in
 
 
 ![multiple-custom-api-gateways.png](multiple-custom-api-gateways.png)
-
-
-![api_gateway_service.png](api_gateway_service.png)
