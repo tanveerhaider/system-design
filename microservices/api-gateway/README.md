@@ -7,11 +7,11 @@ This fact can impact the client-to-microservice communication, as explained in t
 A direct client-to-microservice communication architecture could be good enough for a small microservice-based application.
 However, when you build large and complex microservice-based applications (for example, when handling dozens of
 microservice types), and especially when the client apps are remote mobile apps or SPA web applications, that approach
-faces a few issues.
+faces a few issues.</br>
 • Interacting with multiple microservices to build a single UI screen increases the number of round trips across the Internet. 
-  This approach increases latency and complexity on the UI side.
-•Implementing security and cross-cutting concerns like security and authorization on every microservice can require significant development effort
-• Protocols used on the server side (like AMQP or binary protocols) are not supported in client apps. Therefore, requests must be performed through protocols like HTTP/HTTPS and translated to the other protocols afterwards
+  This approach increases latency and complexity on the UI side.</br>
+•Implementing security and cross-cutting concerns like security and authorization on every microservice can require significant development effort.</br>
+• Protocols used on the server side (like AMQP or binary protocols) are not supported in client apps. Therefore, requests must be performed through protocols like HTTP/HTTPS and translated to the other protocols afterwards.</br>
 
 
 **Introduction**:
