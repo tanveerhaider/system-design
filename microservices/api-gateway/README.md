@@ -88,3 +88,19 @@ adapter code which underneath calls multiple internal microservices, as shown in
 
 
 ![multiple-custom-api-gateways.png](multiple-custom-api-gateways.png)
+
+Additional resources
+Chris Richardson. Pattern: API Gateway / Backend for Front-End
+https://microservices.io/patterns/apigateway.html
+
+API Gateway pattern
+https://learn.microsoft.com/azure/architecture/microservices/gateway
+
+Aggregation and composition pattern
+https://microservices.io/patterns/data/api-composition.html
+
+Azure API Management
+https://azure.microsoft.com/services/api-management/
+
+https://www.designgurus.io/blog/Load-Balancer-Reverse-Proxy-API-Gateway
+
